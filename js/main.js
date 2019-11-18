@@ -11,7 +11,7 @@ $(".grid .square").click(function() {
     var squareClicked = $(this);
     $.ajax({
         url: "https://flynn.boolean.careers/exercises/api/random/int",
-        success: function(data, textStatus, jqXHR) {
+        success: function(data) {
             console.log(data.response);
             if (data.response <= "5") {
                 squareClicked.addClass("yellow-back");
