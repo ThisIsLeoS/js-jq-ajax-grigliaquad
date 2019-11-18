@@ -10,11 +10,13 @@
 
 /* rules used in specific parts of the page */
     html {
+        height: 100%;
         font-size: 14px;
     }
     
     body {
         display: flex;
+        height: 100%;
         font-family: sans-serif;
     }
 
